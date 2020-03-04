@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int n = 500000;
-	vector<int> count(n+1, 1);
+	vector<long long int> count(n+1, 1);
 	count[0]=0;
 	count[1]=0;
 	for(int i=2; i<=n/2; i++)
