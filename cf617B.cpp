@@ -12,7 +12,8 @@ int main()
 		cin >> x;
 		v[i] = x;
 	}
-	int res = 1, x,y;
+	long long int res = 1; // IMPORTANT step to avoid overflow
+	int x,y;
 	x = INT_MIN;
 	y = INT_MIN;
 	
